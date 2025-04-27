@@ -4,11 +4,21 @@
 
 ## Installation
 
-Installation is best done via [cocoapods](http://cocoapods.org).
+### Swift Package Manager
 
-### Podfile
+Add the following to your `Package.swift`:
 
-    pod 'STRFTimeFormatter'
+```swift
+dependencies: [
+    .package(url: "https://github.com/yourusername/STRFTimeFormatter.git", from: "1.0.0")
+]
+```
+
+Or add it directly in Xcode:
+1. Go to File > Add Packages...
+2. Enter the repository URL: `https://github.com/yourusername/STRFTimeFormatter.git`
+3. Select your desired version rule
+4. Click Add Package
 
 ## Usage
 
