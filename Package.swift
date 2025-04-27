@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "STRFTimeFormatter",
-            path: "Sources",
+            path: "Sources/STRFTimeFormatter",
             publicHeadersPath: "include"
         ),
         .testTarget(
